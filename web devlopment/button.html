@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <button onclick="color()">red</button>
+    <button onclick="blue()">blue</button>
+    <button onclick="green()">green</button>
+
+    <script> 
+        const body=document.getElementById("body");
+        function green(){
+            body.style.backgroundColor="green";        
+
+        }
+        function blue(){
+            body.style.backgroundColor="blue";        
+            
+        }
+        function color(){
+            body.style.backgroundColor="red";        
+        }
+    setInterval(function(){
+        console.log("callbackfunction")
+        body.style.opacity=0.1
+    },500);
+    </script>
+    
+</body>
+</html>

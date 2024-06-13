@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="name">helloworld</h1>
+    <div id="content"></div>
+    <div id="content1"></div>
+    <div id="content2"></div>
+
+
+    <script>
+        const content1=document.getElementById("content1");
+        const data=document.createElement("span");
+        data.textContent="BISHAN";
+        content1.append(data);
+
+        const content2=document.getElementById("content2");
+        const value=document.createElement("span");
+        value.textContent="BISHANn";
+        content1.append(value);
+
+
+        const content=document.getElementById("content");
+        const myH1=document.createElement("h1");
+        myH1.textContent="bishan bhandari";
+        content.append(myH1);
+    </script>
+</body>
+</html>
