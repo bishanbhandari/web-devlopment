@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helloworld</title>
+    <style>
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="name">Helloworld</h1>
+    <button onclick="sayHello()">click me</button>
+
+<script>
+    //this is how we comment
+  /* function test(){
+    console.log("helloe world");
+   }
+   function add(x,y){
+    console.log(x+y);
+   }
+   function sub(a,b){
+    console.log(a-b);
+   }
+   function  name(username){
+    console.log(username);
+   }
+   name("bishan");
+   add(1,2);
+   sub(100,5);
+   test();*/
+ const name=document.getElementById("name");
+ console.log(name);
+   function sayHello(){
+    name.innerHTML="Bishan";
+   }
+</script>
+</body>
+</html>
