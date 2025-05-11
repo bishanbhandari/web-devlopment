@@ -1,0 +1,33 @@
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+
+}
+#box1{
+    background-color: red;
+    order: -1;
+}
+#box2{
+    background-color:green;
+}
+#box3{
+    background-color:yellow;
+}
+#box4{
+    background-color:blue;
+}
+
+.container{
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    border: 10px solid black;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+    /* align-content: space-evenly;
+    /* column-gap: 3em; */
+    /* row-gap: 3em; */ 
+}
