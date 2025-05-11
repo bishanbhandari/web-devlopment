@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+    
+<h1>FORM</h1>
+<form action="lyrics.html" method="POST">
+    <label for="username" >username:</label>
+    <input type="text" id="username" name="username" minlength="6" required >
+    <br>
+    <label for="password">password:</label>
+    <input type="password" name="password" id="password" minlength="6" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="abc@gmail.com">
+    <br>
+    <label for="phone number">   Number:</label>
+    <input type="tel" name="" id="" pattern="[0-9]" required>
+    <br>
+    <label for="date">Date:</label>
+    <input type="date">
+    <br>
+    <label for="quantity">Quantity:</label>
+    <input type="number">
+<br>
+    <label for="titile">title:</label>
+    <label for="Mr">Mr</label>
+    <input type="radio" name="titile" value="Mr" id="Mr">
+    <label for="Ms">Ms</label>
+    <input type="radio" name="titile" value="Ms" id="Ms">
+    <label for="phd">phd</label>
+    <input type="radio" name="titile" value="phd" id="phd">
+    <br>
+
+    <!-- DROPDOWN MENU -->
+    <label for="payment">payment:</label>
+    <select id="payment">
+        <option value="visa">visa</option>
+        <option value="master">master</option>
+        <option value="gift">gift</option>
+    </select>
+    <br>
+    <!-- CHECK BOX -->
+     <label for="subcribe">suscribe:</label>
+     <input type="checkbox" name="suscribe" id="suscribe"><br>
+    <!-- comment -->
+     <label for="comment">comment:</label>
+     <textarea name="comment" id="comment" rows="3" cols="15"></textarea>
+    <br>
+    <label for="file">file:</label>
+    <input type="file" accept="jpg"><br>
+     <input type="reset">
+    <br>
+    <input type="submit">
+
+</form>
+</body>
+</html>
